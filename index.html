@@ -73,9 +73,8 @@
       </ul>
     </section>
   </main>
-  
-  <footer>
-    <!-- Pie de página, información adicional o enlaces de contacto -->
+
+  <section>
     <table>
       <caption>Artistas y Géneros</caption>
       <thead>
@@ -100,7 +99,30 @@
         <!-- Puedes agregar más filas según sea necesario -->
       </tbody>
     </table>
-  </footer>
+  </section>
+  
+  <footer>
+    <!-- Pie de página, información adicional o enlaces de contacto -->
+      <section>
+        <h2>Deja un comentario</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+    
+          <label for="comentario">Comentario:</label>
+          <textarea id="comentario" name="comentario" required></textarea>
+    
+          <button type="submit">Enviar comentario</button>
+        </form>
+      </section>
+    
+      <section>
+        <h2>Comentarios anteriores</h2>
+        <ul id="lista-comentarios">
+          <!-- Los comentarios se agregarán dinámicamente aquí utilizando JavaScript -->
+        </ul>
+      </section>
+    </footer>
   
   <script>
     // Código JavaScript para funcionalidades adicionales relacionadas con la música
